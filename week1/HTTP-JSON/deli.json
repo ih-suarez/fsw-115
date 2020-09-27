@@ -1,0 +1,80 @@
+{
+    "appetizers": [
+        {
+            "nachoSupreme": {
+                "ingredients": ["Tortilla Chips", "Nacho Cheese", "Guacamole", "Sour Cream", "Pico De Gallo"],
+                "description": "Home made Tortilla Chips topped off with fresh Nacho Cheese, Sour Cream, Guacamole finished off with freshly made Pico De Gallo." 
+            }   
+        },
+
+        {
+            "quesadilla": {
+                "ingredients": ["Flour Tortilla", "Cheese", "Sour Cream", "Guacamole", "Pico De Gallo", "Fajita Beef"],
+                "description": "Beef Fajitas topped with Cheese, Sour Cream, in a Home Made Tortilla with Pico De Gallo and Guacamole on the side."
+            }
+        }
+    ], 
+
+    "coldSandwiches": [
+        {
+            "chickenSalad": {
+                "ingredients": ["Chicken", "Celery", "Green Onions", "Ranch"],
+                "description": "Sweet and tasty Chicken Salad Sandwich made with Ranch dressing."
+            }
+        },
+
+        {
+            "muffuletta": {
+                "ingredients": ["Olives", "Celery", "Pepperoncini", "Onions", "Salami", "Ham", "Mortadella"],
+                "description": "Muffuletta, which originated in New Orleans, is named after the round, crusty Sicilian loaf of bread it's traditionally served on. While I favor my own olive salad, there are several good versions available in most supermarkets. —Lou Sansevero, Ferron, Utah"
+
+            }
+        }
+    ],
+
+    "hotSandwiches": [
+        {
+            "spicyChipotle": {
+                "ingredients": ["Monterey Cheese", "Avocado", "Chicken", "Hot Sauce"],
+                "description": "Spicy Southwest Chipotle sandwich is a delight on the taste buds. It will hit you with the taste of Avocados and Chicken along with the feirce home made Hot Sauce."
+            }
+        },
+
+        {
+            "hangerStake": {
+                "ingredients": ["White Break", "Steak", "Marinated Red Onions", "Cheese"],
+                "description": "A thick slab of grilled hanger steak makes this sandwich into a full meal. Add some marinated red onions for a nice little tang."
+            }
+        }
+    ],
+
+   "desserts": [
+       {
+            "volcanoChocolateCake": {
+               "ingredients": ["Chocolate Cake", "Ice Cream", "Caramel", "Chocolate Shell Syrup"],
+               "desctiption": "A Chocolate Volcano filled with vanilla Ice Cream and topped off with a Chocolate Shell"
+            }
+        },
+
+        {
+            "flan": {
+                "ingredients": ["Sugar", "Eggs", "Evaporated Milk", "Vanilla Extract"],
+                "desctiption": "A baked custart. It is a rich, thick custard custard made with eggs, sugar, milk, whipping cream, a little vanilla and sugar that is caramelized for the top."
+            }
+       }
+   ],
+
+   "drinks": [
+       {
+           "lemonade": {
+                "ingredients": ["Lemons", "Water", "Sugar", "Honey"],
+                "desctiption": "Refreshing Lemonade made fresh every morning."
+           },
+
+           "iceTea": {
+                "ingredients": ["Water", "Tea", "Lemons", "Rasberries", "Strawberries"],
+                "desctiption": "One of a kind Home made Tea."
+           }
+       }
+   ]
+}
