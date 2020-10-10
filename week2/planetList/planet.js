@@ -238,14 +238,17 @@ let planets = {
     ]
 }
 
-const listHead = document.createElement('h1')
-    listHead.textContent = 'List of Planets'
-    document.getElementById('root').appendChild(listHead)
+const object = JSON.stringify(planets);
+document.body.innerHTML = object;
 
-let planetsName = planets.results.map((item, index) => item['name'])
+// const listHead = document.createElement('h1')
+//     listHead.textContent = 'List of Planets'
+//     document.getElementById('root').appendChild(listHead)
 
-let listedPlanets = planetsName.forEach(planet => {
-    let name = document.createElement('li')
-        name.textContent = planet
-        document.getElementById('root').appendChild(name)
-});
+// let planetsName = planets.results.map((item, index) => item['name'])
+
+// let listedPlanets = planetsName.forEach(planet => {
+//     let name = document.createElement('li')
+//         name.textContent = planet
+//         document.getElementById('root').appendChild(name)
+// });
