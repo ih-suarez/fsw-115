@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: rgba(192, 192, 192, 0.685);
+}
+.header {
+    margin-top: 60px;
+    text-align: center;
+    text-shadow: 10px 5px 30px dodgerblue;
+    text-decoration: wavy underline black;
+}
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 200px;
+    border: 1px;
+    border-radius: 15px;
+    background-color: rgba(100, 148, 237, 0.185);
+    padding: 10px;
+    
+}
