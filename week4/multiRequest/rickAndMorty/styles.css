@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: rgba(250, 235, 215, 0.582);
+}
+nav {
+    display: flex;
+    padding: 30px;
+    background-color: dodgerblue;
+    justify-content: space-evenly;
+}
+a {
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-shadow: 3px 3px 5px ghostwhite;
+}
+.showCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(184, 135, 11, 0.479);
+    border-radius: 40px;
+    background-color:  rgba(184, 135, 11, 0.479);
+    margin: 50px auto;
+    padding: auto;
+    width: 400px;
+}
+.mainContent {
+    margin: 60px auto;
+    text-align: center;
+}
