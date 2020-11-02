@@ -20,7 +20,7 @@ const displayContent = (characters, locations, episodes) => {
         
         const isAlive = document.createElement('h3')
         isAlive.id = 'isAlive'
-        isAlive.style.color = character.status === 'Alive' ? 'green' : 'tomato'
+        isAlive.style.color = character.status === 'Alive' ? 'green' : 'red'
         isAlive.textContent = `Is Character Alive? ${character.status}`
         rickAndMortyContainer.appendChild(isAlive)
     })
