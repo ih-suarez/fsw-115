@@ -37,3 +37,9 @@ main {
     font-size: 25px;
     text-decoration: underline;
 }
+
+footer {
+    text-align: center;
+    border: 2px solid teal;
+    background-color: rgba(0, 128, 128, 0.74);
+}
