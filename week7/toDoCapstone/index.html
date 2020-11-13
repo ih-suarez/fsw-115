@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <title>Axios Practice</title>
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="header">The To Do-oOo-ooOo-ooo's Input Form</h1>
+            <form id="form">
+                <label>Title:</label>
+                    <input type="text" required={true} id="toDoTitle" />
+                <label>Description:</label>
+                    <input type="text" required={true} id="toDoDescription" />
+                <label>Price:</label>
+                    <input type="number" required={true} pattern="[0-9]" id="toDoPrice" placeholder="$$$" />
+                <label>Completed:</label>
+                    <input type="checkbox" id="toDoCompleted" />
+                <button class="formButton" type="submit">Create To Do</button>
+            </form>
+            <div id="formOutput"></div>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+        <script src="axios.js"></script>
+    </body>
+</html>
